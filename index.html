@@ -11,7 +11,7 @@
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container navbar-blc">
             <div class="logo"><img src="img/logo.svg" alt="logo"></div>
             <div class="navbar">
                 <nav class="nav">
@@ -22,51 +22,45 @@
                         <li class="nav-item"><a class="nav-link burger-link" href="#contacts">Контакты</a></li>
                 </nav>
             </div>
-            <!-- <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div> -->
+        </div>
+        <div class="container hero-container">
+            <div class="hero-con1">
+                <p class="hero-title">Проектирование элитной недвижимости «под ключ»</p>
+            </div>
+            <div class="call">
+                <p class="hero-desc">Запишитесь на бесплатную онлайн консультацию</p>
+                <button class="btn"><span class="btn-hero-txt">Записаться</span></button>
+            </div>
         </div>
     </header>
     <main class="main">
         <div class="container">
-            <section class="section hero">
-                <div class="hero-con1">
-                    <h1 class="hero-title">Проектирование элитной недвижимости «под ключ»</h1>
-                </div>
-                <div class="call">
-                    <p class="hero-desc">Запишитесь на бесплатную онлайн консультацию</p>
-                    <button class="btn"><span class="btn-txt">Записаться</span></button>
-                </div>
-            </section>
-
             <section class="section services">
                 <div class="section-title-container">
                     <h3 class="section-title"><span class="section-title-text">Наши услуги</span></h3>
                     <div class="our-services">
-                        <div>
+                        <div class="portfolio-img">
                             <p class="services-txt">Загородный дом</p>
                             <img src="img/img1.jpg" alt="загородный-дом">
                         </div>
-                        <div>
+                        <div class="portfolio-img">
                             <p class="services-txt">Квартира</p>
-                            <img src="img/img1.jpg" alt="Квартира">
-                            <button class="btn"><span class="services-btn">Посмотреть</span></button>
+                            <img src="img/img2.jpg" alt="Квартира">
+                            <button class="btn services-btn"><span class="btn">Посмотреть</span></button>
                         </div>
-                        <div>
-                            <p class="services-txt">Нежилые помещения</p><img src="img/img1.jpg"
+                        <div class="portfolio-img">
+                            <p class="services-txt">Нежилые <br>помещения</p><img src="img/img3.jpg"
                                 alt="Нежилые помещения">
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="section">
+            <section class="section portfolio-section">
                 <div class="section-title-container">
-                    <h2 class="section-title"><span class="section-txt">Присоединяйтесь к нам в Instagram</span>
+                    <h2 class="section-title"><span class="section-txt">Присоединяйтесь к нам <br>в Instagram</span>
                     </h2>
                 </div>
-                <div class="portfolio-img">
+                <div class="portfolio-img-insta">
                     <div><img src="img/portfolio-img-1.jpg" alt="portfolio-img"></div>
                     <div><img src="img/portfolio-img-2.jpg" alt="portfolio-img"></div>
                     <div><img src="img/portfolio-img-3.jpg" alt="portfolio-img"></div>
@@ -87,17 +81,23 @@
                 <div class="footer-logo"><img src="img/logo.svg"> </div>
                 <div class="footer-information">
                     <p>Информация</p>
-                    <ul>
-                        <li> <a href="">Загородные дома</a></li>
+                    <ul class="footer-link">
+                        <li><a href="">Загородные дома</a></li>
                         <li><a href="">Квартиры</a></li>
-                        <li> <a href="">Нежилые помещения</a></li>
+                        <li><a href="">Нежилые помещения</a></li>
                         <li><a href="">Медиафайлы</a></li>
-                        <li> <a href="">О компании</a></li>
+                        <li><a href="">О компании</a></li>
                     </ul>
                 </div>
                 <div class="footer-contacts">
-                    <span>+ 7 (499) 409-16-12</span>
-                    <span>italproekt@gmail.com</span>
+                    <p>Контакты</p>
+                    <!-- <ul>
+                        <li class="phone-logo">+ 7 (499) 409-16-12</li>
+                        <li class="">italproekt@gmail.com</li>
+                    </ul> -->
+                    <span class="phone"> + 7 (499) 409-16-12</span><br>
+
+                    <span class="email"> italproekt@gmail.com</span>
                 </div>
                 <div class="footer-social">
                     <ul class="social-media">
