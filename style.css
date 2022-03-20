@@ -49,11 +49,6 @@ a:hover {
   align-items: center;
 }
 
-.logo {
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .navbar {
   margin-left: auto;
 }
@@ -74,7 +69,7 @@ a:hover {
   line-height: 25px;
 }
 
-/* Hero */
+/* HERO */
 
 .hero {
   width: 1400px;
@@ -164,7 +159,7 @@ a:hover {
   background-color: inherit;
 }
 
-/* Services */
+/* SERVICES */
 
 .services {
   margin-top: 120px;
@@ -224,7 +219,7 @@ a:hover {
   margin: 120px 0 60px 0;
 }
 
-/* Portfolio */
+/* PORTFOLIO */
 
 .portfolio-section {
   width: 1160px;
@@ -250,7 +245,7 @@ a:hover {
   margin: 50px 0 140px;
 }
 
-/* Footer */
+/* FOOTER */
 
 .footer {
   margin: 0 auto;
@@ -291,7 +286,9 @@ li {
   padding: 0;
 }
 
-.footer-information p {
+.footer-information p,
+.footer-contacts p,
+.footer-social p {
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -317,18 +314,32 @@ li {
   margin-bottom: 20px;
 }
 
-.phone {
-  display: block;
+.contacts {
+  display: grid;
+  align-items: center;
   justify-content: space-between;
 }
 
-.phone::before {
-  content: url(./img/phone.svg);
-  margin-top: 2px;
+.phone,
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
 }
 
-.email::before {
-  content: url(./img/email.svg);
+.contacts-icons {
+  padding-right: 10px;
+}
+
+.contacts-txt {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.footer-social p {
+  padding-bottom: 10px;
+  margin-left: 20px;
 }
 
 .social-media {
