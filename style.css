@@ -40,6 +40,7 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center 0;
   background-size: cover;
+  position: relative;
 }
 
 .navbar-blc {
@@ -115,11 +116,52 @@ a:hover {
   background: #d8b152;
   border: none;
   color: #ffffff;
+  transition: 0.3s;
 }
 
-.btn-hero-txt {
+.btn:hover {
+  background-color: #ffffff;
+  color: #d8b152;
+  border: 1px solid #d8b152;
+}
+
+.btn-txt {
   width: 260px;
   height: 25px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.slider {
+  position: absolute;
+  top: 730px;
+  left: 590px;
+}
+
+.circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+.circle:hover {
+  background-color: #fff;
+}
+
+.slider .active {
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.slider .active:hover {
+  background-color: inherit;
 }
 
 /* Services */
@@ -151,7 +193,6 @@ a:hover {
   position: absolute;
   display: block;
   width: 360px;
-  height: 360px;
   justify-content: center;
   text-align: center;
   top: 170px;
@@ -159,6 +200,11 @@ a:hover {
   font-weight: 600;
   font-size: 28px;
   line-height: 38px;
+  transition: 0.3s;
+}
+
+.services-txt:hover {
+  color: #d8b152;
 }
 
 .services-btn {
@@ -187,6 +233,11 @@ a:hover {
   text-align: center;
 }
 
+.portfolio-img:hover,
+.portfolio-img-insta:hover {
+  cursor: pointer;
+}
+
 .portfolio-img-insta {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -197,16 +248,6 @@ a:hover {
   width: 260px;
   height: 60px;
   margin: 50px 0 140px;
-}
-
-.portfolio-btn {
-  width: 260px;
-  height: 25px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
 }
 
 /* Footer */
@@ -275,6 +316,7 @@ li {
 .footer-contacts p {
   margin-bottom: 20px;
 }
+
 .phone {
   display: block;
   justify-content: space-between;
@@ -282,6 +324,7 @@ li {
 
 .phone::before {
   content: url(./img/phone.svg);
+  margin-top: 2px;
 }
 
 .email::before {
@@ -306,6 +349,8 @@ li {
 .insta:hover {
   filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
     contrast(87%);
+  background-color: #ffffff;
+  border: 1px solid #d8b152;
 }
 
 .fb {
