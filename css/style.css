@@ -36,7 +36,7 @@ a:hover {
   width: 1400px;
   height: 800px;
   margin: 0 auto;
-  background-image: url(img/bg.jpg);
+  background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
   background-position: center 0;
   background-size: cover;
@@ -281,11 +281,11 @@ li {
 }
 
 .phone::before {
-  content: url(img/phone.svg);
+  content: url(../img/phone.svg);
 }
 
 .email::before {
-  content: url(img/email.svg);
+  content: url(../img/email.svg);
 }
 
 .social-media {
@@ -309,7 +309,7 @@ li {
 }
 
 .fb {
-  background-image: url("img/fb.svg");
+  background-image: url("../img/fb.svg");
   background-position: center;
   width: 50px;
   height: 50px;
@@ -323,7 +323,7 @@ li {
 }
 
 .yt {
-  background-image: url("img/yt.svg");
+  background-image: url("../img/yt.svg");
   background-position: center;
   width: 50px;
   height: 50px;
@@ -335,7 +335,7 @@ li {
 }
 
 .pin {
-  background-image: url("img/pin.svg");
+  background-image: url("../img/pin.svg");
   background-position: center;
   width: 50px;
   height: 50px;
@@ -347,7 +347,7 @@ li {
 }
 
 .insta {
-  background-image: url("img/insta.svg");
+  background-image: url("../img/insta.svg");
   background-position: center;
   background-size: 24px;
   width: 50px;
