@@ -310,10 +310,6 @@ li {
   justify-content: space-between;
 }
 
-.footer-contacts p {
-  margin-bottom: 20px;
-}
-
 .contacts {
   display: grid;
   align-items: center;
@@ -325,7 +321,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 10px;
+  padding: 10px 0 3px;
 }
 
 .contacts-icons {
@@ -417,13 +413,11 @@ li {
 .footer-blc2 {
   display: flex;
   justify-content: space-between;
-  height: 210px;
   padding-top: 50px;
 }
 
 .footer-blc2 span {
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 22px;
 }
