@@ -164,6 +164,7 @@ a:hover {
 .services {
   margin-top: 120px;
   width: 1160px;
+  margin: 0 auto;
 }
 
 .section-title-text {
@@ -223,6 +224,7 @@ a:hover {
 
 .portfolio-section {
   width: 1160px;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
   text-align: center;
