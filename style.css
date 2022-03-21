@@ -163,8 +163,7 @@ a:hover {
 
 .services {
   margin-top: 120px;
-  max-width: 1160px;
-  margin: 0 auto;
+  width: 1160px;
 }
 
 .section-title-text {
@@ -223,8 +222,7 @@ a:hover {
 /* PORTFOLIO */
 
 .portfolio-section {
-  max-width: 1160px;
-  margin: 0 auto;
+  width: 1160px;
   justify-content: center;
   align-items: center;
   text-align: center;
