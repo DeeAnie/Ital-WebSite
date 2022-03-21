@@ -163,7 +163,7 @@ a:hover {
 
 .services {
   margin-top: 120px;
-  width: 1160px;
+  max-width: 1160px;
   margin: 0 auto;
 }
 
@@ -223,7 +223,7 @@ a:hover {
 /* PORTFOLIO */
 
 .portfolio-section {
-  width: 1160px;
+  max-width: 1160px;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
