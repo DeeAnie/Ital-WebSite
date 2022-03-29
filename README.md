@@ -1,4 +1,4 @@
-# [Сайт компании "Ital"](https://dianazhusupbek.github.io/ital/)
+# [Сайт компании "Ital"](https://dianazhusupbek.github.io/Ital-WebSite/)
 
 Формат: #figma
 
